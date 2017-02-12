@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to DoubleGreener -- Sharing my life to you</title>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+
+<!--light box-->
+        <script src="js/jquery-1.11.0.min.js"></script>
+		<script src="js/lightbox.min.js"></script>
+		<link href="css/lightbox.css" rel="stylesheet" />
+		
+<!--Font family-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+<div id="container">
+
+     <header id="header" role="banner">
+           <div class="header-holder">
+                <h1 class="logo"><img src="images/logo.png" class="logo" /></h1>
+                    <nav class="main-nav" role="navigation">
+						<ul>
+							<li><a href="#travel">Place Traveled</a></li>
+							<li><a href="#S2">Homemade Pastry</a></li>
+							<li><a href="#intro">Self Introduction</a></li>
+							<!--<li><a class="order-link" href="https://w3-markup.com/order">Self Introduction</a></li>-->
+						</ul>
+                    </nav>
+          </div>
+     </header>
+   <!--JS for navigation always at top-->  
+     <script type="text/javascript">  
+            function toolbar(el) {  
+                el = typeof el == 'string' ? document.getElementById(el) : el;  
+                var elTop = el.offsetTop;  
+                var sTop = 0;  
+                window.onscroll = function () {  
+                    sTop = document.body.scrollTop || document.documentElement.scrollTop;  
+                    if (sTop > elTop) {  
+                        el.style.top = "0";  
+                        el.style.position = "fixed"  
+                    } else {  
+                        el.style.top = elTop + 'px';  
+                        el.style.position = "absolute"  
+                    }  
+                }  
+            }  
+            toolbar('header');  
+        </script>  
+
+	<div id='S0'>
+		<!--for header area-->
+	</div>
+
+	<div id="S1">
+		<img src="images/brain.png" class="brain" />
+	</div>
+	
+<!--travelling-->
+<div id="S4">
+	<!--travelling logo-->
+		<div id="tvlogo">
+		 	<img src="images/travel_logo.png"/>
+		</div>
+			
+	<div id="travel">
+		<table class="country">
+			<tr>
+				<td>cell1</td>
+				<td><!--photo for uk-->
+						<a target="_blank" href="images/travel/london1.jpg" data-lightbox="uk" data-title=" ">
+							<img src="images/travel/london1.jpg" alt="uk pic" class="trvpich">
+						</a>
+						<a target="_blank" href="images/travel/london2.jpg" data-lightbox="uk" data-title=" "></a>
+				</td>		
+				<td>cell3</td>
+				<td>cell4</td>
+				<td>cell5</td>
+				<td><!--photo for Jeju-->
+					<a target="_blank" href="images/travel/jeju1.png" data-lightbox="jeju" data-title=" ">
+							<img src="images/travel/jeju1.png" alt="jeju pic" class="trvpicv">
+						</a>
+						<a target="_blank" href="images/travel/jeju2.png" data-lightbox="jeju" data-title=" "></a>
+						<a target="_blank" href="images/travel/jeju3.png" data-lightbox="jeju" data-title=" "></a>
+				</td>
+			</tr>
+			<tr>
+				<td>cell7</td>
+				<td>cell8</td>		
+				<td><!--photo for paris-->
+						<a target="_blank" href="images/travel/paris1.jpg" data-lightbox="paris" data-title=" ">
+							<img src="images/travel/paris1.jpg" alt="paris pic" class="trvpicv">
+						</a>
+						<a target="_blank" href="images/travel/paris2.jpg" data-lightbox="paris" data-title=" "></a>
+						<a target="_blank" href="images/travel/paris3.jpg" data-lightbox="paris" data-title=" "></a>
+				</td>
+				<td>cell10</td>
+				<td><!--photo for Japan-->
+						<a target="_blank" href="images/travel/japan1.jpg" data-lightbox="japan" data-title=" ">
+							<img src="images/travel/japan1.jpg" alt="uk pic" class="trvpich">
+						</a>
+						<a target="_blank" href="images/travel/japan2.jpg" data-lightbox="japan" data-title=" "></a>
+						<a target="_blank" href="images/travel/japan3.jpg" data-lightbox="japan" data-title=" "></a>
+				</td>
+				<td>cell12</td>
+				
+			</tr>
+			<tr>
+				<td>cell13</td>
+				<td><!--photo for Madrid-->
+					<a target="_blank" href="images/travel/madrid1.jpg" data-lightbox="madrid" data-title=" ">
+							<img src="images/travel/madrid1.jpg" alt="madrid pic" class="trvpicv">
+						</a>
+						<a target="_blank" href="images/travel/madrid2.jpg" data-lightbox="madrid" data-title=" "></a>
+						<a target="_blank" href="images/travel/madrid3.jpg" data-lightbox="madrid" data-title=" "></a>
+				</td>		
+				<td>cell15</td>
+				<td><!--photo for Gemany-->
+						<a target="_blank" href="images/travel/gemany1.jpg" data-lightbox="gemany" data-title=" ">
+							<img src="images/travel/gemany1.jpg" alt="gemany pic" class="trvpicv">
+						</a>
+						<a target="_blank" href="images/travel/gemany2.jpg" data-lightbox="gemany" data-title=" "></a>
+						<a target="_blank" href="images/travel/gemany3.jpg" data-lightbox="gemany" data-title=" "></a>	
+				</td>
+				<td>cell17</td>
+				<td><!--photo for Italy-->
+						<a target="_blank" href="images/travel/italy1.jpg" data-lightbox="italy" data-title=" ">
+							<img src="images/travel/italy1.jpg" alt="italy pic" class="trvpicv">
+						</a>
+						<a target="_blank" href="images/travel/italy2.jpg" data-lightbox="italy" data-title=" "></a>
+						<a target="_blank" href="images/travel/italy3.jpg" data-lightbox="italy" data-title=" "></a>
+				</td>
+			</tr>
+		</table>
+		
+	</div>
+</div>
+
+<!--food display-->
+	<div id="S2">
+<!--homemade logo-->
+		<div id="homemade">
+		 	<img src="images/hm_logo.png"/>
+		</div>
+
+		<div class="foodpic">
+			<a target="_blank" href="images/greenteacake.jpg" data-lightbox="pastry" data-title="Chinese Green Tea Cake">
+				<img src="images/greenteacake.jpg" alt="Matcha" width="200" height="auto">
+				<!--<a href="img/image-1.jpg" data-lightbox="image-1" data-title="My caption">Image #1</a>-->
+			</a>
+			<div class="desc">Chinese Green Tea Cake</div>
+		</div>
+  
+		<div class="foodpic">
+			<a target="_blank" href="images/puff.jpg" data-lightbox="pastry" data-title="Creamy Puff">
+				<img src="images/puff.jpg" alt="Puff" width="200" height="auto">
+			</a>
+			<div class="desc">Creamy Puff</div>
+		</div>
+  
+		<div class="foodpic">
+			<a target="_blank" href="images/mangotart.jpg" data-lightbox="pastry" data-title="Mango Pie">
+				<img src="images/mangotart.jpg" alt="Mango Pie" width="200" height="auto">
+			</a>
+			<div class="desc">Mango Pie</div>
+		</div>
+  
+   <div class="foodpic">
+	   <a target="_blank" href="images/peachcake.jpg" data-lightbox="pastry" data-title="Peachcake">
+		   <img src="images/peachcake.jpg" alt="Peachcake" width="200" height="auto">
+	   </a>
+	   <div class="desc">Peachcake</div>
+  </div>
+  
+   <div class="foodpic">
+	   <a target="_blank" href="images/ximidong.jpg" data-lightbox="pastry" data-title="Sago Jelly">
+		   <img src="images/ximidong.jpg" alt="Sago Jelly" width="200" height="auto">
+	   </a>
+	   <div class="desc">Sago Jelly</div>
+  </div>
+  
+   <div class="foodpic">
+	   <a target="_blank" href="images/cakeroll.jpg" data-lightbox="pastry" data-title="Matcha&Chocolate Cake Roll">
+		   <img src="images/cakeroll.jpg" alt="Matcha" width="200" height="auto">
+	   </a>
+	   <div class="desc">Matcha&Chocolate Cake Roll</div>
+  </div>
+  
+   <div class="foodpic">
+	   <a target="_blank" href="images/cookie-cheesecake.jpg" data-lightbox="pastry" data-title="Cookie Cheesecake">
+		   <img src="images/cookie-cheesecake.jpg" alt="Cookie Cheesecake" width="200" height="auto">
+	   </a>
+	   <div class="desc">Cookie Cheesecake</div>
+  </div>
+
+ <div class="foodpic">
+	   <a target="_blank" href="images/shaobing.png" data-lightbox="pastry" data-title=" Clay oven rolls">
+		   <img src="images/shaobing.png" alt=" Clay oven rolls" width="200" height="auto">
+	   </a>
+	   <div class="desc"> Clay oven rolls</div>
+  </div>
+  
+  <div class="foodpic">
+	   <a target="_blank" href="images/concha.jpg" data-lightbox="pastry" data-title="Concha">
+		   <img src="images/concha.jpg" alt="Concha" width="200" height="auto">
+	   </a>
+	   <div class="desc">Concha</div>
+  </div>
+  
+<div class="foodpic">
+	   <a target="_blank" href="images/ruosongbao.jpg" data-lightbox="pastry" data-title="Cheese Pork Floss Bread">
+		   <img src="images/ruosongbao.jpg" alt="Cheese Pork Floss Bread" width="200" height="auto">
+	   </a>
+	   <div class="desc">Cheese Pork Floss Bread</div>
+  </div>  
+  
+  <div class="foodpic">
+	   <a target="_blank" href="images/luosongbread.jpg" data-lightbox="pastry" data-title="Russian Bread">
+		   <img src="images/luosongbread.jpg" alt="Russian Bread" width="200" height="auto">
+	   </a>
+	   <div class="desc">Russian Bread</div>
+  </div>
+  
+   <div class="foodpic">
+	   <a target="_blank" href="images/matcha.jpg" data-lightbox="pastry" data-title="Matcha Cheesecake">
+		   <img src="images/matcha.jpg" alt="Matcha" width="200" height="auto">
+	   </a>
+	   <div class="desc">Matcha Cheesecake</div>
+  </div>
+
+   
+
+</div>
+
+<!--self_intro-->
+	<div id="S3">
+    	<div id="intro">
+    		<table class="content">
+    			<tr>
+				<td>Studying Engineering,having logical mind and problem-solving abolities</td>
+				<td>Love Illustration,Graphical and Fashion Designs </td>
+				<td>Aiming to combine logical & Art mind together to produce Creative Web Designs</td>
+    			</tr>
+			</table>
+		</div>	
+	</div>
+	
+<!--footer-->
+	<div id="footer">
+		<table class="ft">
+			<tr>
+				<td>Copyright 2014 DoubleGreener.com </td> 
+			</tr>
+			<tr>
+				<td>Developed & Designed by Wanyun, All illustrations are drawn by Wanyun</td>
+			</tr>
+			<tr>
+				<td>Contact: wyunyang AT gmail.com</td>
+			</tr>
+		</table>
+	</div>
+
+</div>
+
+
+</body>
+</html>
